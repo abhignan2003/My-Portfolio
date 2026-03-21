@@ -5,7 +5,7 @@ import { Terminal } from 'lucide-react';
 const Hero = () => {
   return (
     <section className="hero" id="home">
-      <div style={{ maxWidth: '800px', width: '100%', textAlign: 'left' }}>
+      <div style={{ maxWidth: '800px', width: '100%', textAlign: 'left', marginTop: '4rem' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

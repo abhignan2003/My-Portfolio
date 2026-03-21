@@ -36,9 +36,9 @@ const Navbar = () => {
       borderBottom: scrolled ? '1px solid var(--accent-primary)' : '1px solid transparent',
       boxShadow: scrolled ? '0 0 15px rgba(0, 255, 65, 0.15)' : 'none',
       transition: 'all 0.3s ease',
-      padding: '1.2rem 2rem'
+      padding: '1.5rem 2rem'
     }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <a href="#" style={{
           fontSize: '1.8rem',
           fontWeight: 'bold',
@@ -51,7 +51,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div style={{ display: 'none' }} className="desktop-menu">
-          <ul style={{ display: 'flex', listStyle: 'none', gap: '2rem' }}>
+          <ul style={{ display: 'flex', listStyle: 'none', gap: '2rem', alignItems: 'center' }}>
             {navLinks.map((link) => (
               <li key={link.name}>
                 <a
