@@ -65,7 +65,7 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="public\Guda Abignan Reddy.pdf"
+                href="/Guda Abignan Reddy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
@@ -110,7 +110,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="public\Guda Abignan Reddy.pdf"
+            href="/Guda Abignan Reddy.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
