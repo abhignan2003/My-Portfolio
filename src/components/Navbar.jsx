@@ -65,7 +65,7 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="Req_Resources\G Abignan Reddy.pdf"
+                href="public\Guda Abignan Reddy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
@@ -76,6 +76,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+
 
         {/* Mobile Menu Toggle */}
         <div className="mobile-toggle" style={{ display: 'block', cursor: 'pointer' }} onClick={() => setIsOpen(!isOpen)}>
@@ -109,7 +110,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="Req_Resources\G Abignan Reddy.pdf"
+            href="public\Guda Abignan Reddy.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
