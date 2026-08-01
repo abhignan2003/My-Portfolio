@@ -46,7 +46,7 @@ const Education = () => {
     <section className="section" id="education">
       <SlideUp>
         <h2 style={{ fontSize: '2rem', marginBottom: '3rem', display: 'flex', alignItems: 'center' }}>
-          <span style={{ color: 'var(--accent-primary)', marginRight: '1rem' }}>04.</span> Qualifications
+          <span style={{ color: 'var(--accent-primary)', marginRight: '1rem' }}>05.</span> Qualifications
           <div style={{ flex: 1, height: '1px', background: 'var(--bg-element)', marginLeft: '1.5rem', border: '1px solid rgba(0,255,65,0.2)' }}></div>
         </h2>
 

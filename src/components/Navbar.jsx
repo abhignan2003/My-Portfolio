@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'About', href: '#about' },
+    { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
     { name: 'Education', href: '#education' },
@@ -65,7 +66,7 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="/Guda Abignan Reddy.pdf"
+                href="/Guda_Abignan_Reddy_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
@@ -110,7 +111,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/Guda Abignan Reddy.pdf"
+            href="/Guda_Abignan_Reddy_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"

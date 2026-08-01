@@ -8,28 +8,28 @@ const Projects = () => {
     {
       title: "ShadowSentinel AI",
       subtitle: "Real-Time AI-Powered Cyber Guardian Bot",
-      description: "An AI-driven SOC bot integrating Wazuh SIEM with a Large Language Model (LangChain) for automated alert summarization, contextual threat classification, and severity scoring. Implemented automated IP blocking via firewall rule injection and built facial recognition-based authentication.",
+      description: "Architected an AI-driven SOC bot that integrates Wazuh with a large language model for alert summarization, contextual threat classification, and severity scoring. Added automated IP blocking, facial recognition authentication, voice alerts, and stealth monitoring support for advanced threat tracking scenarios.",
       tech: ["Wazuh SIEM", "LangChain", "LLMs", "Python", "OpenCV"],
       links: { github: "https://github.com/abhignan2003/ShadowSentinel-AI.git", live: "#" }
     },
     {
       title: "SIEM Cloud SOC Honeypot",
       subtitle: "Microsoft Azure Sentinel",
-      description: "Deployed a deliberately vulnerable Windows VM on Azure with open RDP to capture live brute-force and credential-stuffing attacks. Integrated Azure Sentinel via Log Analytics workspace with custom GeoIP watchlists to visualize global threat actor activity on KQL-powered dashboards.",
+      description: "Deployed a deliberately vulnerable Windows VM on Azure with open RDP to simulate real-world attack surfaces and capture brute-force, credential-stuffing, and port-scan activity. Integrated Azure Sentinel with Log Analytics and GeoIP watchlists to attribute attacks by country and visualize them on KQL-powered dashboards.",
       tech: ["Azure Sentinel", "Windows Server VM", "KQL", "GeoIP", "Log Analytics"],
       links: { github: "https://github.com/abhignan2003/SIEM-Cloud-SOC-Honeypot", live: "#" }
     },
     {
       title: "Open-Source Host Security Monitoring",
       subtitle: "SIEM with Wazuh on Linode/Akamai",
-      description: "Configured Wazuh SIEM across distributed endpoints to monitor file integrity, registry modifications, active IP connections, and real-time vulnerabilities. Centralized syslog forwarding and built automated alerting workflows.",
+      description: "Deployed and configured Wazuh across distributed endpoints to monitor file integrity, registry modifications, active IP connections, and real-time vulnerabilities. Centralized syslog forwarding, enrolled agents, and built alerting workflows for faster host-level intrusion detection and escalation.",
       tech: ["Wazuh", "Linode/Akamai", "Linux/Bash", "Syslog", "FIM"],
       links: { github: "https://github.com/abhignan2003/Open-Source-Host-Security-Monitoring-SIEM-with-Wazuh-on-Linode-Akamai-.git", live: "#" }
     },
     {
       title: "Sign Language Recognition (EXSEL)",
       subtitle: "ML Gesture Classification",
-      description: "Designed a scikit-learn classification pipeline to recognize hand gestures from image inputs with high accuracy. Applied OpenCV for image preprocessing, feature extraction, and real-time accessible gesture-to-text translation.",
+      description: "Designed and trained a scikit-learn classification pipeline to recognize eight hand gestures from image inputs with high accuracy on unseen data. Applied OpenCV for preprocessing and feature extraction to support accessible gesture-to-text translation.",
       tech: ["Python", "scikit-learn", "OpenCV", "Machine Learning"],
       links: { github: "https://github.com/abhignan2003/Hand-Gesture-Recognition ", live: "#" }
     }
@@ -39,7 +39,7 @@ const Projects = () => {
     <section className="section" id="projects">
       <SlideUp>
         <h2 style={{ fontSize: '2rem', marginBottom: '3rem', display: 'flex', alignItems: 'center' }}>
-          <span style={{ color: 'var(--accent-primary)', marginRight: '1rem' }}>03.</span> Security Deployments
+          <span style={{ color: 'var(--accent-primary)', marginRight: '1rem' }}>04.</span> Security Deployments
           <div style={{ flex: 1, height: '1px', background: 'var(--bg-element)', marginLeft: '1.5rem', border: '1px solid rgba(0,255,65,0.2)' }}></div>
         </h2>
 

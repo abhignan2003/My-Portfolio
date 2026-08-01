@@ -5,20 +5,20 @@ import FadeIn from './FadeIn';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Security & SOC",
-      skills: ["SIEM", "SOC Analysis", "Threat Intelligence", "Incident Response", "Log Analysis", "Vulnerability Assessment", "Ethical Hacking", "Digital Forensics", "Malware Analysis"]
+      title: "Security Operations",
+      skills: ["SOC Analysis", "Security Monitoring", "Incident Response", "Threat Intelligence", "Threat Hunting", "Email Security", "Digital Forensics", "Malware Analysis", "Log Analysis", "Vulnerability Assessment", "Penetration Testing", "Ethical Hacking"]
     },
     {
-      title: "Cloud & Tools",
-      skills: ["Microsoft Azure", "Azure Sentinel", "Wazuh", "Splunk", "Wireshark", "Nmap", "Metasploit", "Burp Suite", "KQL", "GeoIP Watchlists"]
+      title: "Microsoft Security & Cloud",
+      skills: ["Microsoft Defender XDR", "Defender for Endpoint", "Defender for Office 365", "Defender for Cloud Apps", "Microsoft Threat Intelligence", "Microsoft Entra ID", "Azure Sentinel", "Microsoft Azure", "Cloud Security", "Log Analytics Workspace"]
     },
     {
-      title: "Programming & OS",
-      skills: ["Python", "Bash Scripting", "MySQL", "HTML/CSS", "Git", "Linux (CLI/Admin)", "Windows Security"]
+      title: "Tools & Querying",
+      skills: ["Wazuh", "Splunk", "Jira", "KQL", "Wireshark", "Nmap", "Metasploit", "Burp Suite", "GeoIP Watchlists"]
     },
     {
-      title: "Frameworks & AI",
-      skills: ["MITRE ATT&CK", "OWASP Top 10", "CIA Triad", "LangChain", "LLM Integration", "Machine Learning (scikit-learn)", "OpenCV"]
+      title: "Programming, OS & AI",
+      skills: ["Python", "Bash Scripting", "MySQL", "HTML/CSS", "Git", "Linux (CLI & Administration)", "Windows Security", "LangChain", "LLM Integration", "Machine Learning (scikit-learn)", "OpenCV", "MITRE ATT&CK", "OWASP Top 10", "CIA Triad"]
     }
   ];
 
@@ -26,7 +26,7 @@ const Skills = () => {
     <section className="section" id="skills">
       <SlideUp>
         <h2 style={{ fontSize: '2rem', marginBottom: '3rem', display: 'flex', alignItems: 'center' }}>
-          <span style={{ color: 'var(--accent-primary)', marginRight: '1rem' }}>02.</span> Technical Arsenal
+          <span style={{ color: 'var(--accent-primary)', marginRight: '1rem' }}>03.</span> Technical Arsenal
           <div style={{ flex: 1, height: '1px', background: 'var(--bg-element)', marginLeft: '1.5rem', border: '1px solid rgba(0,255,65,0.2)' }}></div>
         </h2>
         

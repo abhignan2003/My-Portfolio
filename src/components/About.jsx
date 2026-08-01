@@ -1,6 +1,5 @@
 import React from 'react';
 import SlideUp from './SlideUp';
-import { Shield, Server, Terminal } from 'lucide-react';
 
 const About = () => {
   return (
@@ -14,13 +13,13 @@ const About = () => {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', alignItems: 'start' }}>
           <div style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', lineHeight: 1.6 }}>
             <p style={{ marginBottom: '1rem' }}>
-              Hello! I'm Guda Abignan Reddy, a passionate cybersecurity professional dedicated to understanding how systems operate to defend them effectively. I hold a Bachelor of Technology in Computer Science & Engineering from Kalasalingam University.
+              Hello! I'm Guda Abignan Reddy, a cybersecurity professional with hands-on SOC experience investigating, triaging, and responding to enterprise incidents across endpoint, email, identity, and cloud environments.
             </p>
             <p style={{ marginBottom: '1rem' }}>
-              My journey involves building production-grade honeypot environments on Microsoft Azure, deploying open-source SIEM stacks with Wazuh, and engineering an LLM-powered cyber guardian bot with automated incident response.
+              My background combines live security operations with engineering-focused project work: Microsoft Defender investigations, SIEM deployments with Wazuh and Azure Sentinel, cloud honeypots on Azure, and an LLM-powered cyber guardian bot built for faster alert validation and response.
             </p>
             <p>
-              I am actively seeking a <strong style={{ color: 'var(--accent-primary)' }}>SOC Analyst</strong> or <strong style={{ color: 'var(--accent-primary)' }}>Security Engineer</strong> role to contribute deep hands-on expertise to a world-class security team.
+              I am growing as an <strong style={{ color: 'var(--accent-primary)' }}>AI Threat Validation Analyst</strong>, bringing hands-on expertise in threat validation, incident response, and threat intelligence to a strong security team.
             </p>
           </div>
           
@@ -46,16 +45,16 @@ const About = () => {
             <h3 style={{ color: 'var(--accent-primary)', marginBottom: '1rem' }}>// Current Directives</h3>
             <ul style={{ listStyle: 'none', color: 'var(--text-secondary)' }}>
               <li style={{ marginBottom: '0.8rem', display: 'flex', gap: '10px' }}>
-                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> Threat Intelligence Gathering
+                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> SOC monitoring and incident triage
               </li>
               <li style={{ marginBottom: '0.8rem', display: 'flex', gap: '10px' }}>
-                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> Automated Incident Response
+                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> Email, endpoint, identity, Network, and cloud investigations
               </li>
               <li style={{ marginBottom: '0.8rem', display: 'flex', gap: '10px' }}>
-                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> Log Analysis & Forensics
+                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> AI-assisted threat validation and response automation
               </li>
               <li style={{ display: 'flex', gap: '10px' }}>
-                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> Custom SIEM Rules Creation
+                <span style={{ color: 'var(--accent-primary)' }}>&gt;</span> SIEM engineering, threat hunting, and reporting
               </li>
             </ul>
           </div>

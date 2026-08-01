@@ -16,10 +16,10 @@ const Footer = () => {
           Initialize <span style={{ color: 'var(--accent-primary)' }}>Contact</span>
         </h2>
         <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', lineHeight: '1.6' }}>
-          My inbox is always open. Whether you have a question, a SOC/Security Engineer opportunity, or just want to say hi, I'll try my best to get back to you!
+          Actively seeking opportunities in Security Operations. Whether you want to discuss threat validation, detection, or security operations, I would be glad to connect.
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-          <a href="mailto:abhignan2003@gmail.com" className="btn" style={{ padding: '0.8rem 1.5rem', fontSize: '1.1rem' }}>
+          <a href="mailto:abhignan.2003@gmail.com" className="btn" style={{ padding: '0.8rem 1.5rem', fontSize: '1.1rem' }}>
             Say Hello
           </a>
           <a
@@ -53,7 +53,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/guda-abignan-reddy-7560a025b/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>
           <Linkedin size={24} />
         </a>
-        <a href="mailto:abhignan2003@gmail.com" style={{ color: 'var(--text-secondary)' }}>
+        <a href="mailto:abhignan.2003@gmail.com" style={{ color: 'var(--text-secondary)' }}>
           <Mail size={24} />
         </a>
       </div>

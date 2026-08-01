@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Terminal } from 'lucide-react';
+import { Shield, Terminal } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -30,9 +30,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', lineHeight: 1.2, color: 'var(--text-secondary)', marginBottom: '2rem' }}
+          style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.6rem)', lineHeight: 1.2, color: 'var(--text-secondary)', marginBottom: '2rem' }}
         >
-          I secure the <span style={{ color: 'var(--accent-primary)', textShadow: 'var(--glow-shadow)' }}>matrix</span>.
+          <span style={{ color: 'var(--accent-primary)', textShadow: 'var(--glow-shadow)' }}>AI Threat Validation Analyst</span>
         </motion.h2>
 
         <motion.p
@@ -41,8 +41,20 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           style={{ fontSize: '1.1rem', maxWidth: '600px', lineHeight: 1.6, color: 'var(--text-secondary)', marginBottom: '3rem' }}
         >
-          Cybersecurity graduate specializing in SOC operations, SIEM engineering, cloud security, and AI-driven threat detection. Building scalable security systems and hunting threats before they become breaches.
+          Cybersecurity professional with hands-on SOC experience across Microsoft Defender XDR, endpoint, email, identity, and cloud investigations, with a strong focus on incident response, threat intelligence, SIEM engineering, and AI-driven detection.
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.35 }}
+          style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '2.2rem' }}
+        >
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-primary)', fontFamily: 'var(--font-mono)', fontSize: '0.9rem' }}>
+            <Shield size={16} />
+            AI Threat Validation Analyst at CyberMSI
+          </span>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -53,7 +65,7 @@ const Hero = () => {
           <a href="#projects" className="btn" style={{ background: 'rgba(0, 255, 65, 0.1)', color: 'var(--accent-primary)' }}>
             Initialize Projects
           </a>
-          <a href="Req_Resources\G Abignan Reddy.pdf" target="_blank" rel="noopener noreferrer" className="btn" style={{ borderColor: 'var(--text-secondary)', color: 'var(--text-secondary)' }}>
+          <a href="/Guda_Abignan_Reddy_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn" style={{ borderColor: 'var(--text-secondary)', color: 'var(--text-secondary)' }}>
             Extract Resume
           </a>
         </motion.div>
