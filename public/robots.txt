@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abhignan2003.github.io/My-Portfolio/sitemap.xml
